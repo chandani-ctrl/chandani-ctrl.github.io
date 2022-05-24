@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular'  ;
+}
+  header {
+      /* for lighten the image and cleary see the button of navigion bar */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url( "beach.jpg");
+    height: 100vh;
+    background-size : cover;
+    background-position : center;
+  }
+  ul{
+      float: right;
+      list-style-type: none;
+      margin-top: 25px;
+  }
+  ul li{
+      display: inline-block;
+  }
+  ul li a{
+      text-decoration: none;
+      color:white;
+      padding: 6px;
+      margin-right: 4px;
+           border: 1px solid transparent;
+           transition: 0.6 ease;
+  }
+  /* to give hover effect to button */
+  ul li a:hover{
+      background-color:white;
+      color: black;
+  }
+
+  /* like home which is active or which is running */
+   ul li.active a{
+    background-color:white;
+    color:black;
+  }
+  .main{
+      max-width: 1200px;
+      margin:auto;
+  }
+  .title{
+      position:absolute;
+      top:50%;
+      left:50%;
+    transform: translate(-50%,-50%);
+  }
+  .title h1{
+      color: white; 
+      font-size:45px
+  }
+.button{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.btn {
+    border: 1px solid white;
+    padding:10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6 ease;
+}
+.btn:hover{
+    background-color: white;
+    color:black ;
+}
+
+
+
+
+
+
